@@ -13,9 +13,7 @@
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/NewsAPI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/RetrofitInstance.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/util/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/ArticleDao.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.idea/.name" beforeDir="false" />
@@ -59,7 +57,7 @@
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Challenge/app/src/main/java/com/coding/challenge/models/Recycler.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/Article.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/Article.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +75,8 @@
       <list>
         <option value="navigationResourceFile" />
         <option value="resourceFile" />
-        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -99,7 +97,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.reader.mode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
