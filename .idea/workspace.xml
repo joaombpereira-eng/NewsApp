@@ -13,12 +13,9 @@
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/ArticleFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/BreakingNewsFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/SavedNewsFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/fragments/SearchNewsFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/news_nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/NewsAPI.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/RetrofitInstance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/util/Constants.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.idea/.name" beforeDir="false" />
@@ -61,17 +58,8 @@
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Challenge/app/src/main/java/com/coding/challenge/models/Recycler.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_news.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/ui/NewsActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,9 +75,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="navigationResourceFile" />
         <option value="resourceFile" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -110,7 +99,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
