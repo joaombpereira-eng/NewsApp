@@ -13,8 +13,7 @@
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/script.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript/JogoDaForca/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/ArticleDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/Converters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/adapters/NewsAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/.idea/.name" beforeDir="false" />
@@ -57,12 +56,8 @@
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ButtonClickApp/settings.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Challenge/app/src/main/java/com/coding/challenge/models/Recycler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/Article.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/Article.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/NewsResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/NewsResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/Source.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/models/Source.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/NewsAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/api/NewsAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/ArticleDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/androiddevs/mvvmnewsapp/db/ArticleDao.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +109,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.androiddevs.mvvmnewsapp.models" />
       <recent name="com.androiddevs.mvvmnewsapp.ui" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
