@@ -8,11 +8,11 @@ import com.androiddevs.mvvmnewsapp.models.Article
 interface ArticleDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun upsert(article: Article)
+    suspend fun upsert(article: Article): Long
 
     @Query("SELECT * FROM articles")
     fun getAllArticles() : LiveData<List<Article>>
 
     @Delete
-    fun deleteArticle(article: Article)
+    suspend fun deleteArticle(article: Article)
 }
