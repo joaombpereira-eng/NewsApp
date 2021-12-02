@@ -3,6 +3,7 @@ package com.androiddevs.mvvmnewsapp.ui.fragments
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -28,8 +29,6 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
 
     private lateinit var viewModel: NewsViewModel
     private lateinit var newsAdapter: NewsAdapter
-
-    private val TAG = "SearchNewsFragment"
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -60,13 +59,9 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
         }
 
         viewModel.searchNews.observe(viewLifecycleOwner, Observer { response ->
-            Log.d(TAG, "ViewModel -> Observer")
-            Log.d(TAG, "ViewModel -> Observer -> Response = $response")
             when(response) {
                 is Resource.Success -> {
-                    Log.d(TAG, "ViewModel -> Observer -> Resource.Success -> Before hideProgressBar")
                     hideProgressBar()
-                    Log.d(TAG, "ViewModel -> Observer -> Resource.Success -> After hideProgressBar")
                     response.data?.let { newsResponse ->
                         newsAdapter.differ.submitList(newsResponse.articles.toList())
                         val totalPages = newsResponse.totalResults / QUERY_PAGE_SIZE + 2
@@ -79,7 +74,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
                 is Resource.Error -> {
                     hideProgressBar()
                     response.message?.let { message ->
-                        Log.e(TAG, "An error occurred: $message")
+                        Toast.makeText(activity, "An error occurred: $message", Toast.LENGTH_LONG).show()
                     }
                 }
                 is Resource.Loading -> {
