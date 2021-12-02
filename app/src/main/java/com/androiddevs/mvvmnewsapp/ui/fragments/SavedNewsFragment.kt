@@ -58,7 +58,6 @@ class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
                     show()
                 }
             }
-
         }
 
         ItemTouchHelper(itemTouchHelperCallback).apply {
